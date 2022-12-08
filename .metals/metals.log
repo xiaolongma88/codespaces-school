@@ -1946,3 +1946,129 @@ Dec 08, 2022 12:04:03 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint noti
 INFO: Unsupported notification method: $/setTrace
 Dec 08, 2022 12:04:04 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2022.12.08 12:31:54 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /workspaces/codespaces-blank/.metals/lsp.trace.json or /home/codespace/.cache/metals/lsp.trace.json
+2022.12.08 12:31:56 INFO  logging to file /workspaces/codespaces-blank/.metals/metals.log
+2022.12.08 12:31:56 INFO  Started: Metals version 0.11.9 in workspace '/workspaces/codespaces-blank' for client Visual Studio Code 1.74.0.
+2022.12.08 12:32:02 INFO  time: initialize in 6.08s
+2022.12.08 12:32:04 WARN  Build server is not auto-connectable.
+2022.12.08 12:32:04 WARN  no build tool detected in workspace '/workspaces/codespaces-blank'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.12.08 12:32:15 WARN  no build target for: /workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java
+2022.12.08 12:32:16 WARN  Running javac-semanticdb failed for file:///workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java. Output:
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:12: error: unmappable character (0xE5) for encoding US-ASCII
+ * SpringBoot?????????
+             ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:12: error: unmappable character (0x90) for encoding US-ASCII
+ * SpringBoot?????????
+              ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:12: error: unmappable character (0xAF) for encoding US-ASCII
+ * SpringBoot?????????
+               ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:12: error: unmappable character (0xE5) for encoding US-ASCII
+ * SpringBoot?????????
+                ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:12: error: unmappable character (0x8A) for encoding US-ASCII
+ * SpringBoot?????????
+                 ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:12: error: unmappable character (0xA8) for encoding US-ASCII
+ * SpringBoot?????????
+                  ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:12: error: unmappable character (0xE7) for encoding US-ASCII
+ * SpringBoot?????????
+                   ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:12: error: unmappable character (0xB1) for encoding US-ASCII
+ * SpringBoot?????????
+                    ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:12: error: unmappable character (0xBB) for encoding US-ASCII
+ * SpringBoot?????????
+                     ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:27: error: unmappable character (0xEF) for encoding US-ASCII
+     * Hello???World
+            ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:27: error: unmappable character (0xBC) for encoding US-ASCII
+     * Hello???World
+             ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:27: error: unmappable character (0x8C) for encoding US-ASCII
+     * Hello???World
+              ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:29: error: unmappable character (0xE5) for encoding US-ASCII
+     * @param who ??????????????????
+                  ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:29: error: unmappable character (0x8F) for encoding US-ASCII
+     * @param who ??????????????????
+                   ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:29: error: unmappable character (0x82) for encoding US-ASCII
+     * @param who ??????????????????
+                    ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:29: error: unmappable character (0xE6) for encoding US-ASCII
+     * @param who ??????????????????
+                     ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:29: error: unmappable character (0x95) for encoding US-ASCII
+     * @param who ??????????????????
+                      ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:29: error: unmappable character (0xB0) for encoding US-ASCII
+     * @param who ??????????????????
+                       ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:29: error: unmappable character (0xEF) for encoding US-ASCII
+     * @param who ??????????????????
+                        ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:29: error: unmappable character (0xBC) for encoding US-ASCII
+     * @param who ??????????????????
+                         ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:29: error: unmappable character (0x8C) for encoding US-ASCII
+     * @param who ??????????????????
+                          ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:29: error: unmappable character (0xE9) for encoding US-ASCII
+     * @param who ??????????????????
+                           ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:29: error: unmappable character (0x9D) for encoding US-ASCII
+     * @param who ??????????????????
+                            ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:29: error: unmappable character (0x9E) for encoding US-ASCII
+     * @param who ??????????????????
+                             ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:29: error: unmappable character (0xE5) for encoding US-ASCII
+     * @param who ??????????????????
+                              ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:29: error: unmappable character (0xBF) for encoding US-ASCII
+     * @param who ??????????????????
+                               ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:29: error: unmappable character (0x85) for encoding US-ASCII
+     * @param who ??????????????????
+                                ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:29: error: unmappable character (0xE9) for encoding US-ASCII
+     * @param who ??????????????????
+                                 ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:29: error: unmappable character (0xA1) for encoding US-ASCII
+     * @param who ??????????????????
+                                  ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:29: error: unmappable character (0xBB) for encoding US-ASCII
+     * @param who ??????????????????
+                                   ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:35: error: unmappable character (0xE9) for encoding US-ASCII
+            who = "?????????";
+                   ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:35: error: unmappable character (0x9A) for encoding US-ASCII
+            who = "?????????";
+                    ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:35: error: unmappable character (0x86) for encoding US-ASCII
+            who = "?????????";
+                     ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:35: error: unmappable character (0xE5) for encoding US-ASCII
+            who = "?????????";
+                      ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:35: error: unmappable character (0xBF) for encoding US-ASCII
+            who = "?????????";
+                       ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:35: error: unmappable character (0x83) for encoding US-ASCII
+            who = "?????????";
+                        ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:35: error: unmappable character (0xE9) for encoding US-ASCII
+            who = "?????????";
+                         ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:35: error: unmappable character (0x9B) for encoding US-ASCII
+            who = "?????????";
+                          ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java:35: error: unmappable character (0xA8) for encoding US-ASCII
+            who = "?????????";
+                           ^
+39 errors
