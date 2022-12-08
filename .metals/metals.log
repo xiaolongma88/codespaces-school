@@ -2072,3 +2072,38 @@ INFO: Unsupported notification method: $/setTrace
             who = "?????????";
                            ^
 39 errors
+2022.12.08 12:34:12 WARN  no build target for: /workspaces/codespaces-blank/spring-boot-demo/demo-https/src/main/java/com/xkcoding/https/SpringBootDemoHttpsApplication.java
+2022.12.08 12:34:13 WARN  Running javac-semanticdb failed for file:///workspaces/codespaces-blank/spring-boot-demo/demo-https/src/main/java/com/xkcoding/https/SpringBootDemoHttpsApplication.java. Output:
+/workspaces/codespaces-blank/spring-boot-demo/demo-https/src/main/java/com/xkcoding/https/SpringBootDemoHttpsApplication.java:8: error: unmappable character (0xE5) for encoding US-ASCII
+ * ?????????
+   ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-https/src/main/java/com/xkcoding/https/SpringBootDemoHttpsApplication.java:8: error: unmappable character (0x90) for encoding US-ASCII
+ * ?????????
+    ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-https/src/main/java/com/xkcoding/https/SpringBootDemoHttpsApplication.java:8: error: unmappable character (0xAF) for encoding US-ASCII
+ * ?????????
+     ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-https/src/main/java/com/xkcoding/https/SpringBootDemoHttpsApplication.java:8: error: unmappable character (0xE5) for encoding US-ASCII
+ * ?????????
+      ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-https/src/main/java/com/xkcoding/https/SpringBootDemoHttpsApplication.java:8: error: unmappable character (0x8A) for encoding US-ASCII
+ * ?????????
+       ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-https/src/main/java/com/xkcoding/https/SpringBootDemoHttpsApplication.java:8: error: unmappable character (0xA8) for encoding US-ASCII
+ * ?????????
+        ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-https/src/main/java/com/xkcoding/https/SpringBootDemoHttpsApplication.java:8: error: unmappable character (0xE7) for encoding US-ASCII
+ * ?????????
+         ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-https/src/main/java/com/xkcoding/https/SpringBootDemoHttpsApplication.java:8: error: unmappable character (0xB1) for encoding US-ASCII
+ * ?????????
+          ^
+/workspaces/codespaces-blank/spring-boot-demo/demo-https/src/main/java/com/xkcoding/https/SpringBootDemoHttpsApplication.java:8: error: unmappable character (0xBB) for encoding US-ASCII
+ * ?????????
+           ^
+9 errors
+2022.12.08 12:35:37 WARN  no build target for: /workspaces/codespaces-blank/spring-boot-demo/demo-https/src/main/java/com/xkcoding/https/SpringBootDemoHttpsApplication.java
+Dec 08, 2022 12:37:41 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Dec 08, 2022 12:37:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
