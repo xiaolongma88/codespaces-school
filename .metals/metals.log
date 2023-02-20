@@ -20360,3 +20360,161 @@ SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
 2023.01.23 05:03:43 WARN  Build server is not auto-connectable.
 2023.01.23 05:03:43 WARN  no build tool detected in workspace '/workspaces/codespaces-blank'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2023.01.23 05:03:43 WARN  no build target for: /workspaces/codespaces-blank/spring-boot-demo/demo-helloworld/src/main/java/com/xkcoding/helloworld/SpringBootDemoHelloworldApplication.java
+2023.01.25 02:40:10 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /workspaces/codespaces-blank/.metals/lsp.trace.json or /home/codespace/.cache/metals/lsp.trace.json
+2023.01.25 02:40:13 INFO  logging to file /workspaces/codespaces-blank/.metals/metals.log
+2023.01.25 02:40:13 INFO  Started: Metals version 0.11.10 in workspace '/workspaces/codespaces-blank' for client Visual Studio Code 1.74.3.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.25 02:40:18 INFO  time: initialize in 5.23s
+2023.01.25 02:40:20 WARN  Build server is not auto-connectable.
+2023.01.25 02:40:20 WARN  no build tool detected in workspace '/workspaces/codespaces-blank'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.01.25 02:40:20 WARN  no build target for: /workspaces/codespaces-blank/test.java
+2023.01.25 02:40:21 WARN  Running javac-semanticdb failed for file:///workspaces/codespaces-blank/test.java. Output:
+/workspaces/codespaces-blank/test.java:1: error: class, interface, enum, or record expected
+public void name() {
+       ^
+1 error
+2023.01.25 02:40:21 INFO  time: code lens generation in 1.39s
+2023.01.26 05:40:59 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /workspaces/codespaces-blank/.metals/lsp.trace.json or /home/codespace/.cache/metals/lsp.trace.json
+2023.01.26 05:41:01 INFO  logging to file /workspaces/codespaces-blank/.metals/metals.log
+2023.01.26 05:41:01 INFO  Started: Metals version 0.11.10 in workspace '/workspaces/codespaces-blank' for client Visual Studio Code 1.74.3.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.26 05:41:06 INFO  time: initialize in 5.22s
+2023.01.26 05:41:08 WARN  Build server is not auto-connectable.
+2023.01.26 05:41:08 WARN  no build tool detected in workspace '/workspaces/codespaces-blank'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.01.26 05:41:08 WARN  no build target for: /workspaces/codespaces-blank/test.java
+2023.01.26 05:41:09 WARN  Running javac-semanticdb failed for file:///workspaces/codespaces-blank/test.java. Output:
+/workspaces/codespaces-blank/test.java:1: error: reached end of file while parsing
+cla
+^
+1 error
+Jan 26, 2023 5:41:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 26, 2023 5:42:08 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 26, 2023 5:42:08 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 26, 2023 5:43:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+Jan 26, 2023 5:43:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 26, 2023 5:43:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+2023.01.26 05:43:11 WARN  no build target for: /workspaces/codespaces-blank/test.java
+2023.01.26 05:43:13 WARN  no build target for: /workspaces/codespaces-blank/test.java
+Jan 26, 2023 5:43:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 34
+2023.01.26 05:43:23 WARN  no build target for: /workspaces/codespaces-blank/test.java
+2023.01.26 05:43:25 INFO  time: code lens generation in 1.51s
+2023.01.26 05:43:32 WARN  no build target for: /workspaces/codespaces-blank/test.java
+2023.01.26 05:43:32 WARN  Running javac-semanticdb failed for file:///workspaces/codespaces-blank/test.java. Output:
+/workspaces/codespaces-blank/test.java:3: error: not a statement
+        so
+        ^
+/workspaces/codespaces-blank/test.java:3: error: ';' expected
+        so
+          ^
+2 errors
+2023.01.26 05:43:32 WARN  no build target for: /workspaces/codespaces-blank/test.java
+2023.01.26 05:43:37 WARN  no build target for: /workspaces/codespaces-blank/test.java
+2023.01.26 05:43:40 WARN  no build target for: /workspaces/codespaces-blank/test.java
+Jan 26, 2023 5:44:04 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.01.26 05:44:53 WARN  no build target for: /workspaces/codespaces-blank/test.java
+2023.01.26 05:44:55 WARN  no build target for: /workspaces/codespaces-blank/test.java
+2023.01.26 05:44:56 WARN  Running javac-semanticdb failed for file:///workspaces/codespaces-blank/test.java. Output:
+/workspaces/codespaces-blank/test.java:5: error: <identifier> expected
+    p
+     ^
+1 error
+2023.01.26 05:44:57 WARN  no build target for: /workspaces/codespaces-blank/test.java
+2023.01.26 05:44:58 WARN  no build target for: /workspaces/codespaces-blank/test.java
+2023.01.26 05:44:58 WARN  Running javac-semanticdb failed for file:///workspaces/codespaces-blank/test.java. Output:
+/workspaces/codespaces-blank/test.java:5: error: <identifier> expected
+    vo
+      ^
+1 error
+2023.01.26 05:45:00 WARN  no build target for: /workspaces/codespaces-blank/test.java
+2023.01.26 05:45:01 WARN  Running javac-semanticdb failed for file:///workspaces/codespaces-blank/test.java. Output:
+/workspaces/codespaces-blank/test.java:5: error: <identifier> expected
+    in
+      ^
+1 error
+2023.01.26 05:45:02 WARN  no build target for: /workspaces/codespaces-blank/test.java
+2023.01.26 05:45:03 WARN  Running javac-semanticdb failed for file:///workspaces/codespaces-blank/test.java. Output:
+/workspaces/codespaces-blank/test.java:5: error: <identifier> expected
+    int 
+       ^
+1 error
+2023.01.26 05:45:04 WARN  no build target for: /workspaces/codespaces-blank/test.java
+2023.01.26 05:45:05 WARN  Running javac-semanticdb failed for file:///workspaces/codespaces-blank/test.java. Output:
+/workspaces/codespaces-blank/test.java:5: error: ';' expected
+    int add
+           ^
+1 error
+2023.01.26 05:45:05 WARN  no build target for: /workspaces/codespaces-blank/test.java
+2023.01.26 05:45:06 WARN  Running javac-semanticdb failed for file:///workspaces/codespaces-blank/test.java. Output:
+/workspaces/codespaces-blank/test.java:5: error: ';' expected
+    int add()
+             ^
+1 error
+2023.01.26 05:45:07 WARN  no build target for: /workspaces/codespaces-blank/test.java
+2023.01.26 05:45:07 WARN  Running javac-semanticdb failed for file:///workspaces/codespaces-blank/test.java. Output:
+/workspaces/codespaces-blank/test.java:5: error: <identifier> expected
+    int add(in)
+              ^
+/workspaces/codespaces-blank/test.java:5: error: ';' expected
+    int add(in)
+               ^
+2 errors
+2023.01.26 05:45:10 WARN  no build target for: /workspaces/codespaces-blank/test.java
+2023.01.26 05:45:10 WARN  Running javac-semanticdb failed for file:///workspaces/codespaces-blank/test.java. Output:
+/workspaces/codespaces-blank/test.java:5: error: <identifier> expected
+    int add(int )
+               ^
+/workspaces/codespaces-blank/test.java:5: error: ';' expected
+    int add(int )
+                 ^
+2 errors
+2023.01.26 05:45:15 WARN  no build target for: /workspaces/codespaces-blank/test.java
+2023.01.26 05:45:16 WARN  Running javac-semanticdb failed for file:///workspaces/codespaces-blank/test.java. Output:
+/workspaces/codespaces-blank/test.java:5: error: ';' expected
+    int add(int a,int b)
+                        ^
+1 error
+2023.01.26 05:45:21 WARN  no build target for: /workspaces/codespaces-blank/test.java
+2023.01.26 05:45:28 WARN  no build target for: /workspaces/codespaces-blank/test.java
+2023.01.26 05:45:29 WARN  no build target for: /workspaces/codespaces-blank/test.java
+2023.01.26 05:45:30 WARN  Running javac-semanticdb failed for file:///workspaces/codespaces-blank/test.java. Output:
+/workspaces/codespaces-blank/test.java:5: error: <identifier> expected
+    pu int add(int a,int b) {
+      ^
+1 error
+2023.01.26 05:45:32 WARN  no build target for: /workspaces/codespaces-blank/test.java
+2023.01.26 05:45:37 WARN  no build target for: /workspaces/codespaces-blank/test.java
+2023.01.26 05:45:44 WARN  no build target for: /workspaces/codespaces-blank/test.java
+2023.01.26 05:46:09 WARN  no build target for: /workspaces/codespaces-blank/test.java
+2023.01.26 05:46:28 WARN  no build target for: /workspaces/codespaces-blank/test.java
+2023.01.26 05:46:35 WARN  no build target for: /workspaces/codespaces-blank/test.java
+2023.02.13 02:43:11 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /workspaces/codespaces-blank/.metals/lsp.trace.json or /home/codespace/.cache/metals/lsp.trace.json
+2023.02.13 02:43:14 INFO  logging to file /workspaces/codespaces-blank/.metals/metals.log
+2023.02.13 02:43:14 INFO  Started: Metals version 0.11.10 in workspace '/workspaces/codespaces-blank' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.13 02:43:21 INFO  time: initialize in 6.29s
+2023.02.13 02:43:24 WARN  Build server is not auto-connectable.
+2023.02.13 02:43:24 WARN  no build tool detected in workspace '/workspaces/codespaces-blank'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.02.13 02:43:24 WARN  no build target for: /workspaces/codespaces-blank/test.java
