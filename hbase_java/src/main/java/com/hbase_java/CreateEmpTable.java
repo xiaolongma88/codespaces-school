@@ -7,7 +7,6 @@ import org.apache.hadoop.hbase.TableName;
 import org.apache.hadoop.hbase.client.Admin;
 import org.apache.hadoop.hbase.client.ColumnFamilyDescriptor;
 import org.apache.hadoop.hbase.client.ColumnFamilyDescriptorBuilder;
-import org.apache.hadoop.hbase.client.ColumnFamilyDescriptor;
 import org.apache.hadoop.hbase.client.Connection;
 import org.apache.hadoop.hbase.client.ConnectionFactory;
 import org.apache.hadoop.hbase.client.Get;
@@ -32,14 +31,13 @@ public class CreateEmpTable {
 
         // 创建表描述符对象
         TableName tableName=TableName.valueOf("emp");
-        List<ColumnFamilyDescriptor> colFamilyList = new ArrayList<>();
+        List<ColumnFamilyDescriptor> listColumns = new List<ColumnFamilyDescriptor>();
         TableDescriptorBuilder tableDesBuilder = TableDescriptorBuilder.newBuilder(tableName);
-        for (String str : colFamily) {
-            ColumnFamilyDescriptor colFamilyDes = ColumnFamilyDescriptorBuilder.newBuilder(str.getBytes()).build();
-            colFamilyList.add(colFamilyDes);
-        }
-        TableDescriptor tableDes = tableDesBuilder.setColumnFamilies(colFamilyList).build();
-        admin.createTable(tableDes);
+        ColumnFamilyDescriptor cfd_info = ColumnFamilyDescriptorBuilder.newBuilder("emp info".getBytes()).build();
+        listColumns.add(cfd_info);
+        tableDesBuilder.setColumnFamilies(listColumns);
+        TableDescriptor td=tableDesBuilder.build();
+        admin.createTable(td);
 
         // 关闭资源
         admin.close();
