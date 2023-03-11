@@ -14,7 +14,7 @@ public class InsertDataToEmpTable {
     public static void main(String[] args) throws Exception {
         // 创建HBase配置对象
         Configuration conf = HBaseConfiguration.create();
-
+        conf.set("hbase.zookeeper.quorum", "bigdata:2181");
         // 创建HBase连接对象
         Connection conn = ConnectionFactory.createConnection(conf);
 
