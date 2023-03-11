@@ -1,5 +1,7 @@
 package com.hbase_java;
 
+import java.util.ArrayList;
+
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.HBaseConfiguration;
 
@@ -17,6 +19,9 @@ import org.apache.hadoop.hbase.client.Scan;
 import org.apache.hadoop.hbase.client.Table;
 import org.apache.hadoop.hbase.client.TableDescriptor;
 import org.apache.hadoop.hbase.client.TableDescriptorBuilder;
+import org.apache.hadoop.hbase.util.Bytes;
+
+
 
 public class CreateEmpTable {
     public static void main(String[] args) throws Exception {
@@ -31,13 +36,12 @@ public class CreateEmpTable {
 
         // 创建表描述符对象
         TableName tableName=TableName.valueOf("emp");
-        List<ColumnFamilyDescriptor> listColumns = new List<ColumnFamilyDescriptor>();
-        TableDescriptorBuilder tableDesBuilder = TableDescriptorBuilder.newBuilder(tableName);
-        ColumnFamilyDescriptor cfd_info = ColumnFamilyDescriptorBuilder.newBuilder("emp info".getBytes()).build();
-        listColumns.add(cfd_info);
-        tableDesBuilder.setColumnFamilies(listColumns);
-        TableDescriptor td=tableDesBuilder.build();
-        admin.createTable(td);
+        byte[] empinfo = Bytes.toBytes("info");
+     
+        TableDescriptor tableDescriptor = TableDescriptorBuilder.newBuilder(tableName)
+                .setColumnFamily((ColumnFamilyDescriptor) TableDescriptorBuilder.newBuilder(TableName.valueOf(empinfo)).build())
+                .build();
+        admin.createTable(tableDescriptor);
 
         // 关闭资源
         admin.close();
