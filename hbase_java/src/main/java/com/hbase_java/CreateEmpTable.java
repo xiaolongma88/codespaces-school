@@ -6,6 +6,7 @@ import org.apache.hadoop.hbase.HBaseConfiguration;
 import org.apache.hadoop.hbase.TableName;
 import org.apache.hadoop.hbase.client.Admin;
 import org.apache.hadoop.hbase.client.ColumnFamilyDescriptor;
+import org.apache.hadoop.hbase.client.ColumnFamilyDescriptorBuilder;
 import org.apache.hadoop.hbase.client.Connection;
 import org.apache.hadoop.hbase.client.ConnectionFactory;
 import org.apache.hadoop.hbase.client.TableDescriptor;
@@ -28,10 +29,8 @@ public class CreateEmpTable {
         // 创建表描述符对象
         TableName tableName=TableName.valueOf("emp");
         byte[] empinfo = Bytes.toBytes("info");
-     
-        TableDescriptor tableDescriptor = TableDescriptorBuilder.newBuilder(tableName)
-                .setColumnFamily((ColumnFamilyDescriptor) TableDescriptorBuilder.newBuilder(TableName.valueOf(empinfo)).build())
-                .build();
+        ColumnFamilyDescriptor info = ColumnFamilyDescriptorBuilder.newBuilder(empinfo).build();// 构建列族对象
+        TableDescriptor tableDescriptor = TableDescriptorBuilder.newBuilder(tableName).setColumnFamily(info).build();
         admin.createTable(tableDescriptor);
 
         // 关闭资源
