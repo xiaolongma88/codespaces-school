@@ -26,7 +26,7 @@ public class CreateEmpTable {
         // 创建HBase管理对象
         Admin admin = conn.getAdmin();
 
-        // 创建表描述符对象
+        // 创建表
         TableName tableName=TableName.valueOf("emp");
         byte[] empinfo = Bytes.toBytes("info");
         ColumnFamilyDescriptor info = ColumnFamilyDescriptorBuilder.newBuilder(empinfo).build();// 构建列族对象
