@@ -12,5 +12,7 @@
     ],
     "python.testing.pytestEnabled": false,
     "python.testing.unittestEnabled": true,
-    "java.configuration.updateBuildConfiguration": "interactive"
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "workbench.view.alwaysShowHeaderActions": false,
+    "breadcrumbs.enabled": true
 }
